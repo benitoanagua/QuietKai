@@ -1,0 +1,57 @@
+export default function getAdditionalElements(scheme, term) {
+  return {
+    "notebook.editorBackground": scheme.surfaceContainerLow,
+    "notebook.cellBorderColor": scheme.outlineVariant,
+    "notebook.cellHoverBackground": scheme.surfaceContainer,
+    "notebook.cellInsertionIndicator": scheme.primary,
+    "notebook.cellStatusBarItemHoverBackground": scheme.surfaceContainerHigh,
+    "notebook.cellToolbarSeparator": scheme.outlineVariant,
+    "notebook.cellEditorBackground": scheme.surfaceContainerLow,
+    "notebook.focusedCellBackground": scheme.surfaceContainer,
+    "notebook.focusedCellBorder": scheme.primary,
+    "notebook.focusedEditorBorder": scheme.outline,
+    "notebook.inactiveFocusedCellBorder": scheme.outlineVariant,
+    "notebook.inactiveSelectedCellBorder": scheme.outlineVariant,
+    "notebook.outputContainerBackgroundColor": scheme.surfaceContainerLow,
+    "notebook.outputContainerBorderColor": scheme.outlineVariant,
+    "notebook.selectedCellBackground": scheme.surfaceContainerHigh,
+    "notebook.selectedCellBorder": scheme.outline,
+    "notebook.symbolHighlightBackground": `${scheme.secondaryContainer}1A`,
+    "notebookScrollbarSlider.activeBackground": `${scheme.primary}66`,
+    "notebookScrollbarSlider.background": `${scheme.onSurfaceVariant}40`,
+    "notebookScrollbarSlider.hoverBackground": `${scheme.primary}4D`,
+    "notebookStatusErrorIcon.foreground": scheme.error,
+    "notebookStatusRunningIcon.foreground": scheme.primary,
+    "notebookStatusSuccessIcon.foreground": scheme.secondary,
+    "notebookEditorOverviewRuler.runningCellForeground": scheme.primary,
+
+    "charts.foreground": scheme.onSurface,
+    "charts.lines": scheme.outlineVariant,
+    "charts.red": term.normal.red,
+    "charts.blue": term.normal.blue,
+    "charts.yellow": term.normal.yellow,
+    "charts.green": term.normal.green,
+    "charts.orange": term.bright.yellow,
+    "charts.purple": term.normal.magenta,
+    "chart.line": scheme.outlineVariant,
+    "chart.axis": scheme.outline,
+    "chart.guide": scheme.outlineVariant,
+
+    "ports.iconRunningProcessForeground": scheme.primary,
+
+    "commentsView.resolvedIcon": scheme.secondary,
+    "commentsView.unresolvedIcon": scheme.primary,
+
+    "actionBar.toggledBackground": scheme.primaryContainer,
+
+    "simpleFindWidget.sashBorder": scheme.outlineVariant,
+
+    "gauge.background": scheme.surfaceContainer,
+    "gauge.foreground": scheme.onSurface,
+    "gauge.border": scheme.outline,
+    "gauge.warningBackground": scheme.tertiaryContainer,
+    "gauge.warningForeground": scheme.onTertiaryContainer,
+    "gauge.errorBackground": scheme.errorContainer,
+    "gauge.errorForeground": scheme.onErrorContainer,
+  };
+}

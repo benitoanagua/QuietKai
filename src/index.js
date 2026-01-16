@@ -1,4 +1,4 @@
-import { ThemeBuilder } from './theme/theme-builder.js';
+import ThemeBuilder from './theme/theme-builder.js';
 
 console.log("🎨 Generating QuietKai VSCode themes with Material Design 3 tokens...");
 
