@@ -8,7 +8,7 @@ export default function getVariousSettings(scheme, term) {
         "punctuation.accessor",
       ],
       settings: {
-        foreground: scheme.onSurfaceVariant,
+        foreground: scheme.outline,
       },
     },
     {

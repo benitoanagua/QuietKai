@@ -11,7 +11,7 @@ export default function getMetaSettings(scheme, term) {
       "meta.group",
     ],
     settings: {
-      foreground: scheme.onSurfaceVariant,
+      foreground: scheme.outline,
     },
   };
 }

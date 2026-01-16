@@ -3,7 +3,7 @@ export default function getGeneralColors(scheme) {
     focusBorder: scheme.primary,
     foreground: scheme.onBackground,
     disabledForeground: scheme.onSurfaceVariant,
-    "widget.border": scheme.outline,
+    "widget.border": scheme.outlineVariant,
     "widget.shadow": `${scheme.shadow}33`,
     "selection.background": `${scheme.primaryContainer}AA`,
     descriptionForeground: scheme.onSurfaceVariant,

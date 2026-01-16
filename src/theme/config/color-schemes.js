@@ -1,6 +1,6 @@
-// QuietKai Color Schemes - Material Design 3 tokens
+// Monolumé Color Schemes - Material Design 3 tokens
 
-export const quietKaiLight = {
+export const monolumeLight = {
   primary: "#7A3E9D",
   onPrimary: "#FFFFFF",
   primaryContainer: "#F0D6FF",
@@ -48,7 +48,7 @@ export const quietKaiLight = {
   inversePrimary: "#A8C7FA",
 };
 
-export const quietKaiDark = {
+export const monolumeDark = {
   primary: "#A6E22E",
   onPrimary: "#272822",
   primaryContainer: "#3D4A2A",
@@ -97,7 +97,7 @@ export const quietKaiDark = {
 };
 
 export const terminalColors = {
-  "quiet-kai-light": {
+  "monolume-light": {
     normal: {
       black: "#1A1A1A",
       red: "#AA3731",
@@ -129,7 +129,7 @@ export const terminalColors = {
       white: "#3A3A3A",
     },
   },
-  "quiet-kai-dark": {
+  "monolume-dark": {
     normal: {
       black: "#272822",
       red: "#F92672",
@@ -164,6 +164,6 @@ export const terminalColors = {
 };
 
 export const themeSchemes = {
-  "quiet-kai-light": quietKaiLight,
-  "quiet-kai-dark": quietKaiDark,
+  "monolume-light": monolumeLight,
+  "monolume-dark": monolumeDark,
 };

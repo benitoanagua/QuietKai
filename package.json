@@ -1,7 +1,7 @@
 {
-  "name": "quietkai",
-  "displayName": "QuietKai",
-  "description": "QuietKai - Material Design inspired VSCode themes (Light/Dark) with Manual Color Tokens",
+  "name": "monolume",
+  "displayName": "Monolumé",
+  "description": "Monolumé - Material Design inspired VSCode themes (Light/Dark) with Manual Color Tokens",
   "version": "1.0.0",
   "type": "module",
   "publisher": "benitoanagua",
@@ -12,12 +12,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/benitoanagua/QuietKai"
+    "url": "https://github.com/benitoanagua/Monolume"
   },
   "bugs": {
-    "url": "https://github.com/benitoanagua/QuietKai/issues"
+    "url": "https://github.com/benitoanagua/Monolume/issues"
   },
-  "homepage": "https://github.com/benitoanagua/QuietKai#readme",
+  "homepage": "https://github.com/benitoanagua/Monolume#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -32,27 +32,26 @@
     "dark-theme",
     "quiet-light",
     "monokai",
-    "quiet",
-    "kai"
+    "monolume"
   ],
 
   "contributes": {
     "themes": [
       {
-        "label": "QuietKai Light",
+        "label": "Monolumé Light",
         "uiTheme": "vs",
-        "path": "./themes/quiet-kai-light.json"
+        "path": "./themes/monolume-light.json"
       },
       {
-        "label": "QuietKai Dark",
+        "label": "Monolumé Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/quiet-kai-dark.json"
+        "path": "./themes/monolume-dark.json"
       }
     ]
   },
   "scripts": {
     "build": "node src/index.js",
-    "dev": "npm run build && echo '🎨 QuietKai themes built successfully!'",
+    "dev": "npm run build && echo '🎨 Monolumé themes built successfully!'",
     "watch": "nodemon --watch src --ext js,json --exec \"npm run build\"",
     "package": "vsce package",
     "publish": "vsce publish",

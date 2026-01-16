@@ -1,11 +1,11 @@
-# QuietKai VSCode Theme
+# Monolumé VSCode Theme
 
 A modern Visual Studio Code theme inspired by Material Design 3 with manual color token assignments.
 
 ## Themes
 
-- **QuietKai Light** - Inspired by Quiet Light theme with Material Design 3 color tokens
-- **QuietKai Dark** - Inspired by Monokai theme with Material Design 3 color tokens
+- **Monolumé Light** - Inspired by Quiet Light theme with Material Design 3 color tokens
+- **Monolumé Dark** - Inspired by Monokai theme with Material Design 3 color tokens
 
 ## Features
 
@@ -21,12 +21,12 @@ A modern Visual Studio Code theme inspired by Material Design 3 with manual colo
 
 1. Open VSCode
 2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on Mac) to open Extensions
-3. Search for "QuietKai"
+3. Search for "Monolumé"
 4. Click "Install"
 
 ### Manual Installation
 
-1. Download the latest `.vsix` file from [Releases](https://github.com/benitoanagua/QuietKai/releases)
+1. Download the latest `.vsix` file from [Releases](https://github.com/benitoanagua/Monolume/releases)
 2. Open VSCode
 3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 4. Type "Extensions: Install from VSIX"
@@ -43,8 +43,8 @@ A modern Visual Studio Code theme inspired by Material Design 3 with manual colo
 
 ```bash
 # Clone the repository
-git clone https://github.com/benitoanagua/QuietKai.git
-cd QuietKai
+git clone https://github.com/benitoanagua/Monolume.git
+cd Monolume
 
 # Install dependencies
 npm install
@@ -64,10 +64,10 @@ npm run build
 
 ## Color Philosophy
 
-QuietKai uses Material Design 3 color naming conventions but assigns colors manually to create the perfect balance between:
+Monolumé uses Material Design 3 color naming conventions but assigns colors manually to create the perfect balance between:
 
-- **QuietKai Light**: Clean, bright, and easy on the eyes - inspired by Quiet Light
-- **QuietKai Dark**: Warm, contrasting, and focused - inspired by Monokai
+- **Monolumé Light**: Clean, bright, and easy on the eyes - inspired by Quiet Light
+- **Monolumé Dark**: Warm, contrasting, and focused - inspired by Monokai
 
 ### Material Design 3 Tokens Used
 
@@ -81,13 +81,13 @@ QuietKai uses Material Design 3 color naming conventions but assigns colors manu
 
 ## Theme Variants
 
-### QuietKai Light
+### Monolumé Light
 - **Background**: Clean white (#FFFFFF)
 - **Primary**: Deep green (#2E7D32)
 - **Syntax**: GitHub-inspired with enhanced readability
 - **Perfect for**: Day coding, documentation, presentations
 
-### QuietKai Dark  
+### Monolumé Dark  
 - **Background**: Monokai classic (#272822)
 - **Primary**: Bright green (#66BB6A)
 - **Syntax**: Monokai-inspired with Material Design structure

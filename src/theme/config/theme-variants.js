@@ -1,15 +1,15 @@
 export const themeVariants = [
   {
-    name: "QuietKai Light",
-    filename: "quiet-kai-light",
+    name: "Monolumé Light",
+    filename: "monolume-light",
     isDark: false,
     contrastLevel: 0,
     uiTheme: "vs",
     seedColor: "default",
   },
   {
-    name: "QuietKai Dark",
-    filename: "quiet-kai-dark",
+    name: "Monolumé Dark",
+    filename: "monolume-dark",
     isDark: true,
     contrastLevel: 0,
     uiTheme: "vs-dark",
