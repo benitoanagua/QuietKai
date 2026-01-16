@@ -105,7 +105,7 @@ class ThemeBuilder {
     const generated = [];
 
     for (const variant of themeVariants) {
-      const scheme = themeSchemes[variant.filename];
+      const scheme = { ...themeSchemes[variant.filename], isDark: variant.isDark };
       const term = terminalColors[variant.filename];
 
       if (!scheme || !term) {

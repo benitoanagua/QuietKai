@@ -11,7 +11,7 @@ export default function getKeywordSettings(scheme, term) {
       "keyword.other",
     ],
     settings: {
-      foreground: term.normal.blue,
+      foreground: scheme.error, // Use MD3 error token
     },
   };
 }

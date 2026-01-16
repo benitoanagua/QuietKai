@@ -9,7 +9,7 @@ export default function getCommentSettings(scheme, term) {
       "punctuation.definition.comment",
     ],
     settings: {
-      foreground: term.normal.green,
+      foreground: scheme.tertiary, // Use MD3 tertiary token
       fontStyle: "italic",
     },
   };

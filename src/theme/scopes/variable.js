@@ -4,14 +4,14 @@ export default function getVariableSettings(scheme, term) {
       name: "Local variables",
       scope: ["variable", "variable.other", "variable.other.readwrite"],
       settings: {
-        foreground: scheme.onSurface,
+        foreground: scheme.onBackground,
       },
     },
     {
       name: "Function parameters",
       scope: ["variable.parameter", "variable.parameter.function"],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.primary, // Use MD3 primary token
       },
     },
     {
@@ -22,14 +22,14 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.object.property",
       ],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.secondary, // Use MD3 secondary token
       },
     },
     {
       name: "Environment variables",
       scope: ["variable.other.environment"],
       settings: {
-        foreground: term.normal.green,
+        foreground: scheme.tertiary, // Use MD3 tertiary token
       },
     },
   ];

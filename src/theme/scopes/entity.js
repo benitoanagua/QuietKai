@@ -13,7 +13,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.name.section",
       ],
       settings: {
-        foreground: term.normal.cyan,
+        foreground: scheme.tertiary, // Use MD3 tertiary token
         fontStyle: "bold",
       },
     },
@@ -25,7 +25,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.name.constructor",
       ],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.secondary, // Use MD3 secondary token
       },
     },
   ];

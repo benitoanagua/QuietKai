@@ -2,31 +2,31 @@ export default function getOperatorSettings(scheme, term) {
   return {
     name: "Operators",
     scope: [
-      // Arithmetic
+      // Aritméticos
       "keyword.operator.arithmetic",
 
-      // Comparison
+      // Comparación
       "keyword.operator.comparison",
       "keyword.operator.relational",
 
-      // Logical
+      // Lógicos
       "keyword.operator.logical",
 
-      // Assignment
+      // Asignación
       "keyword.operator.assignment",
 
-      // Increment/Decrement
+      // Incremento/Decremento
       "keyword.operator.increment",
       "keyword.operator.decrement",
 
       // Bitwise
       "keyword.operator.bitwise",
 
-      // Others
+      // Otros
       "keyword.operator",
     ],
     settings: {
-      foreground: term.normal.red,
+      foreground: scheme.error, // Use MD3 error token
     },
   };
 }

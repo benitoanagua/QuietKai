@@ -15,7 +15,7 @@ export default function getConstantSettings(scheme, term) {
       "constant.other",
     ],
     settings: {
-      foreground: term.normal.magenta,
+      foreground: scheme.tertiary, // Use MD3 tertiary token
     },
   };
 }

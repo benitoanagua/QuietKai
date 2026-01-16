@@ -9,23 +9,7 @@ export default function getMarkupSettings(scheme, term) {
       ],
       settings: {
         fontStyle: "bold",
-        foreground: term.normal.blue,
-      },
-    },
-    {
-      name: "Markdown bold",
-      scope: ["markup.bold", "punctuation.definition.bold"],
-      settings: {
-        fontStyle: "bold",
-        foreground: term.normal.cyan,
-      },
-    },
-    {
-      name: "Markdown italic",
-      scope: ["markup.italic", "punctuation.definition.italic"],
-      settings: {
-        fontStyle: "italic",
-        foreground: term.normal.magenta,
+        foreground: scheme.primary, // Use MD3 primary token
       },
     },
     {
@@ -37,7 +21,7 @@ export default function getMarkupSettings(scheme, term) {
         "string.other.link.description.markdown",
       ],
       settings: {
-        foreground: term.normal.green,
+        foreground: scheme.secondary, // Use MD3 secondary token
       },
     },
     {
@@ -48,7 +32,23 @@ export default function getMarkupSettings(scheme, term) {
         "markup.quote.markdown",
       ],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.tertiary, // Use MD3 tertiary token
+      },
+    },
+    {
+      name: "Markdown bold",
+      scope: ["markup.bold", "punctuation.definition.bold"],
+      settings: {
+        fontStyle: "bold",
+        foreground: scheme.secondary, // Use MD3 secondary token
+      },
+    },
+    {
+      name: "Markdown italic",
+      scope: ["markup.italic", "punctuation.definition.italic"],
+      settings: {
+        fontStyle: "italic",
+        foreground: scheme.tertiary, // Use MD3 tertiary token
       },
     },
     {
@@ -59,7 +59,7 @@ export default function getMarkupSettings(scheme, term) {
         "punctuation.definition.list.begin",
       ],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.primary, // Use MD3 primary token
       },
     },
     {
@@ -70,7 +70,7 @@ export default function getMarkupSettings(scheme, term) {
         "entity.name.tag",
       ],
       settings: {
-        foreground: term.normal.cyan,
+        foreground: scheme.secondary, // Use MD3 secondary token
       },
     },
     {
@@ -79,7 +79,7 @@ export default function getMarkupSettings(scheme, term) {
         "entity.other.attribute-name",
       ],
       settings: {
-        foreground: term.normal.magenta,
+        foreground: scheme.tertiary, // Use MD3 tertiary token
       },
     },
   ];
