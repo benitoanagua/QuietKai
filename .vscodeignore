@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+src/**
+*.js
+*.json
+!package.json
+!.vscodeignore
+!themes/**
+assets/icon.png
+*.md
+!LICENSE

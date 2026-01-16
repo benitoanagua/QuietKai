@@ -1,0 +1,65 @@
+{
+  "name": "quietkai",
+  "displayName": "QuietKai",
+  "description": "QuietKai - Material Design inspired VSCode themes (Light/Dark) with Manual Color Tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "publisher": "benitoanagua",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "author": "Benito Anagua",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benitoanagua/QuietKai"
+  },
+  "bugs": {
+    "url": "https://github.com/benitoanagua/QuietKai/issues"
+  },
+  "homepage": "https://github.com/benitoanagua/QuietKai#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "material-design",
+    "vscode",
+    "light-theme",
+    "dark-theme",
+    "quiet-light",
+    "monokai",
+    "quiet",
+    "kai"
+  ],
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "QuietKai Light",
+        "uiTheme": "vs",
+        "path": "./themes/quiet-kai-light.json"
+      },
+      {
+        "label": "QuietKai Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quiet-kai-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node src/index.js",
+    "dev": "npm run build && echo '🎨 QuietKai themes built successfully!'",
+    "watch": "nodemon --watch src --ext js,json --exec \"npm run build\"",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "clean": "rm -f themes/*.json *.vsix"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "vsce": "^2.15.0"
+  }
+}
