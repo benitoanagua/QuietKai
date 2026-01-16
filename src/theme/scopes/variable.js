@@ -4,7 +4,7 @@ export default function getVariableSettings(scheme, term) {
       name: "Local variables",
       scope: ["variable", "variable.other", "variable.other.readwrite"],
       settings: {
-        foreground: scheme.onBackground,
+        foreground: scheme.onSurface,
       },
     },
     {

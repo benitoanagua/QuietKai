@@ -14,20 +14,20 @@ export default function getEditorColors(scheme, term) {
     "editor.placeholder.foreground": scheme.onSurfaceVariant,
     "editor.compositionBorder": scheme.primary,
 
-    "editor.selectionBackground": `${scheme.primaryContainer}4D`,
+    "editor.selectionBackground": `${scheme.primaryContainer}99`,
     "editor.selectionForeground": scheme.onPrimaryContainer,
     "editor.inactiveSelectionBackground": `${scheme.primaryContainer}33`,
     "editor.selectionHighlightBackground": `${scheme.primaryContainer}33`,
     "editor.selectionHighlightBorder": scheme.primary,
 
-    "editor.wordHighlightBackground": `${scheme.secondaryContainer}33`,
-    "editor.wordHighlightBorder": scheme.outlineVariant,
-    "editor.wordHighlightStrongBackground": `${scheme.secondaryContainer}4D`,
+    "editor.wordHighlightBackground": `${scheme.secondaryContainer}66`,
+    "editor.wordHighlightBorder": scheme.outline,
+    "editor.wordHighlightStrongBackground": `${scheme.secondaryContainer}99`,
     "editor.wordHighlightStrongBorder": scheme.outline,
     "editor.wordHighlightTextBackground": `${scheme.tertiaryContainer}33`,
     "editor.wordHighlightTextBorder": scheme.tertiary,
 
-    "editor.findMatchBackground": `${scheme.tertiaryContainer}66`,
+    "editor.findMatchBackground": `${scheme.tertiaryContainer}AA`,
     "editor.findMatchForeground": scheme.onSurface,
     "editor.findMatchHighlightForeground": `${scheme.onSurface}50`,
     "editor.findMatchHighlightBackground": `${scheme.tertiaryContainer}33`,
@@ -44,7 +44,7 @@ export default function getEditorColors(scheme, term) {
 
     "editor.hoverHighlightBackground": `${scheme.secondaryContainer}26`,
 
-    "editor.lineHighlightBackground": `${scheme.surfaceContainer}33`,
+    "editor.lineHighlightBackground": `${scheme.surfaceContainer}4D`,
     "editor.lineHighlightBorder": scheme.outlineVariant,
 
     "editorWatermark.foreground": scheme.onSurfaceVariant,

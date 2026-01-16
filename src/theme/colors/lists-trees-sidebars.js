@@ -1,7 +1,7 @@
 export default function getListsTreesAndSidebars(scheme, term) {
   return {
-    "list.activeSelectionBackground": scheme.primaryContainer,
-    "list.activeSelectionForeground": scheme.onPrimaryContainer,
+    "list.activeSelectionBackground": scheme.primary,
+    "list.activeSelectionForeground": scheme.onPrimary,
     "list.activeSelectionIconForeground": scheme.onPrimaryContainer,
     "list.dropBackground": `${scheme.primary}33`,
     "list.focusBackground": scheme.surfaceContainer,
@@ -10,10 +10,10 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "list.focusOutline": scheme.primary,
     "list.focusAndSelectionOutline": scheme.primary,
     "list.highlightForeground": scheme.primary,
-    "list.hoverBackground": scheme.surfaceContainerHigh,
+    "list.hoverBackground": scheme.surfaceContainer,
     "list.hoverForeground": scheme.onSurface,
-    "list.inactiveSelectionBackground": scheme.secondaryContainer,
-    "list.inactiveSelectionForeground": scheme.onSurface,
+    "list.inactiveSelectionBackground": scheme.secondary,
+    "list.inactiveSelectionForeground": scheme.onSecondary,
     "list.inactiveSelectionIconForeground": scheme.onSurface,
     "list.inactiveFocusBackground": scheme.surfaceContainer,
     "list.inactiveFocusOutline": scheme.outlineVariant,

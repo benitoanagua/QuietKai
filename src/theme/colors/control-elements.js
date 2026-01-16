@@ -50,7 +50,7 @@ export default function getControlElements(scheme, term) {
 
     "scrollbar.shadow": `${scheme.shadow}66`,
     "scrollbarSlider.activeBackground": scheme.primary,
-    "scrollbarSlider.background": `${scheme.onSurfaceVariant}40`,
+    "scrollbarSlider.background": `${scheme.onSurfaceVariant}66`,
     "scrollbarSlider.hoverBackground": scheme.primary,
   };
 }

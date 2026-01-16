@@ -5,7 +5,7 @@ export default function getGeneralColors(scheme) {
     disabledForeground: scheme.onSurfaceVariant,
     "widget.border": scheme.outline,
     "widget.shadow": `${scheme.shadow}33`,
-    "selection.background": `${scheme.primaryContainer}66`,
+    "selection.background": `${scheme.primaryContainer}AA`,
     descriptionForeground: scheme.onSurfaceVariant,
     errorForeground: scheme.error,
     "icon.foreground": scheme.onSurface,
