@@ -9,7 +9,7 @@ export default function getMarkupSettings(scheme, term) {
       ],
       settings: {
         fontStyle: "bold",
-        foreground: scheme.primary, // Use MD3 primary token
+        foreground: term.normal.blue,
       },
     },
     {
@@ -21,7 +21,8 @@ export default function getMarkupSettings(scheme, term) {
         "string.other.link.description.markdown",
       ],
       settings: {
-        foreground: scheme.secondary, // Use MD3 secondary token
+        foreground: term.normal.green,
+        fontStyle: "underline",
       },
     },
     {
@@ -32,7 +33,8 @@ export default function getMarkupSettings(scheme, term) {
         "markup.quote.markdown",
       ],
       settings: {
-        foreground: scheme.tertiary, // Use MD3 tertiary token
+        foreground: term.normal.yellow,
+        fontStyle: "italic",
       },
     },
     {

@@ -26,7 +26,8 @@ export default function getOperatorSettings(scheme, term) {
       "keyword.operator",
     ],
     settings: {
-      foreground: scheme.error, // Use MD3 error token
+      foreground: term.normal.red,
+      fontStyle: "bold",
     },
   };
 }

@@ -2,7 +2,7 @@ export default function getControlElements(scheme, term) {
   return {
     "button.background": scheme.primary,
     "button.foreground": scheme.onPrimary,
-    "button.border": scheme.outline,
+    "button.border": scheme.outlineVariant,
     "button.separator": scheme.outlineVariant,
     "button.hoverBackground": scheme.primaryContainer,
     "button.secondaryForeground": scheme.onSecondaryContainer,
@@ -10,7 +10,7 @@ export default function getControlElements(scheme, term) {
     "button.secondaryHoverBackground": scheme.secondaryContainer,
 
     "checkbox.background": scheme.surfaceContainerLowest,
-    "checkbox.border": scheme.outline,
+    "checkbox.border": scheme.outlineVariant,
     "checkbox.foreground": scheme.onSurface,
     "checkbox.selectBackground": scheme.primary,
     "checkbox.selectBorder": scheme.primary,
@@ -27,11 +27,11 @@ export default function getControlElements(scheme, term) {
 
     "dropdown.background": scheme.surfaceContainerLowest,
     "dropdown.listBackground": scheme.surfaceContainer,
-    "dropdown.border": scheme.outline,
+    "dropdown.border": scheme.outlineVariant,
     "dropdown.foreground": scheme.onSurface,
 
     "input.background": scheme.surfaceContainerLowest,
-    "input.border": scheme.outline,
+    "input.border": scheme.outlineVariant,
     "input.foreground": scheme.onSurface,
     "input.placeholderForeground": scheme.onSurfaceVariant,
     "inputOption.activeBackground": scheme.primaryContainer,

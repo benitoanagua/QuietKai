@@ -20,7 +20,19 @@ export default function getVariousSettings(scheme, term) {
         "punctuation.section.bracket",
       ],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.onSurfaceVariant,
+        fontStyle: "bold",
+      },
+    },
+    {
+      name: "Delimiters and separators",
+      scope: [
+        "punctuation.separator.key-value",
+        "punctuation.separator.dictionary",
+        "punctuation.separator.sequence",
+      ],
+      settings: {
+        foreground: scheme.outline,
       },
     },
     {

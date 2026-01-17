@@ -11,7 +11,7 @@ export default function getVariableSettings(scheme, term) {
       name: "Function parameters",
       scope: ["variable.parameter", "variable.parameter.function"],
       settings: {
-        foreground: scheme.primary, // Use MD3 primary token
+        foreground: term.normal.yellow,
       },
     },
     {
@@ -22,14 +22,27 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.object.property",
       ],
       settings: {
-        foreground: scheme.secondary, // Use MD3 secondary token
+        foreground: term.normal.blue,
       },
     },
     {
       name: "Environment variables",
       scope: ["variable.other.environment"],
       settings: {
-        foreground: scheme.tertiary, // Use MD3 tertiary token
+        foreground: term.normal.green,
+        fontStyle: "italic",
+      },
+    },
+    {
+      name: "Global and module variables",
+      scope: [
+        "variable.other.constant",
+        "variable.other.global",
+        "variable.other.module",
+      ],
+      settings: {
+        foreground: term.normal.magenta,
+        fontStyle: "bold",
       },
     },
   ];
