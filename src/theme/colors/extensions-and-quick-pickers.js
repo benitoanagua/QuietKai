@@ -2,10 +2,11 @@ export default function getExtensionsAndQuickPickers(scheme) {
   return {
     "extensionButton.prominentForeground": scheme.onPrimary,
     "extensionButton.prominentBackground": scheme.primary,
-    "extensionButton.prominentHoverBackground": scheme.primaryContainer,
-    "extensionButton.background": scheme.surfaceContainer,
+    "extensionButton.prominentHoverBackground": scheme.primary,
+    "extensionButton.background": scheme.surface,
     "extensionButton.foreground": scheme.onSurface,
-    "extensionButton.hoverBackground": scheme.surfaceContainerHigh,
+    "extensionButton.hoverBackground": scheme.surfaceVariant,
+    "extensionButton.hoverForeground": scheme.onSurfaceVariant,
     "extensionButton.separator": scheme.outlineVariant,
     "extensionBadge.remoteBackground": scheme.secondaryContainer,
     "extensionBadge.remoteForeground": scheme.onSecondaryContainer,
@@ -20,9 +21,9 @@ export default function getExtensionsAndQuickPickers(scheme) {
     "pickerGroup.foreground": scheme.primary,
     "quickInput.background": scheme.surfaceContainerLow,
     "quickInput.foreground": scheme.onSurface,
-    "quickInputList.focusBackground": scheme.surfaceContainer,
-    "quickInputList.focusForeground": scheme.onSurface,
-    "quickInputList.focusIconForeground": scheme.onSurfaceVariant,
+    "quickInputList.focusBackground": scheme.primaryContainer,
+    "quickInputList.focusForeground": scheme.onPrimaryContainer,
+    "quickInputList.focusIconForeground": scheme.onPrimary,
     "quickInputTitle.background": scheme.surfaceContainer,
   };
 }

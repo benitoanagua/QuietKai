@@ -4,14 +4,14 @@ export default function getVariableSettings(scheme, term) {
       name: "Local variables",
       scope: ["variable", "variable.other", "variable.other.readwrite"],
       settings: {
-        foreground: scheme.onSurface,
+        foreground: scheme.onBackground,
       },
     },
     {
       name: "Function parameters",
       scope: ["variable.parameter", "variable.parameter.function"],
       settings: {
-        foreground: scheme.primary,
+        foreground: scheme.secondary,
       },
     },
     {
@@ -22,7 +22,7 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.object.property",
       ],
       settings: {
-        foreground: scheme.secondary,
+        foreground: scheme.primary,
       },
     },
     {
@@ -41,7 +41,7 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.module",
       ],
       settings: {
-        foreground: scheme.error,
+        foreground: scheme.primary,
         fontStyle: "bold",
       },
     },

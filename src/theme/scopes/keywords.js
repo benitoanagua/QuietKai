@@ -12,7 +12,7 @@ export default function getKeywordSettings(scheme, term) {
         "keyword.control.switch",
       ],
       settings: {
-        foreground: scheme.primary,
+        foreground: scheme.tertiary,
         fontStyle: "bold",
       },
     },
@@ -37,7 +37,7 @@ export default function getKeywordSettings(scheme, term) {
         "keyword.operator.comparison",
       ],
       settings: {
-        foreground: scheme.error,
+        foreground: scheme.tertiary,
       },
     },
   ];

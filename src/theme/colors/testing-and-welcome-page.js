@@ -37,8 +37,8 @@ export default function getTestingAndWelcomePage(scheme, term) {
     "welcomePage.progress.background": scheme.surfaceContainer,
     "welcomePage.progress.foreground": scheme.primary,
     "welcomePage.tileBackground": scheme.surfaceContainer,
-    "welcomePage.tileHoverBackground": scheme.surfaceContainerHigh,
-    "welcomePage.tileBorder": scheme.outlineVariant,
+    "welcomePage.tileHoverBackground": scheme.surfaceContainerHighest,
+    "welcomePage.tileBorder": scheme.outline,
     "walkThrough.embeddedEditorBackground": scheme.surfaceContainer,
     "walkthrough.stepTitle.foreground": scheme.onSurface,
   };

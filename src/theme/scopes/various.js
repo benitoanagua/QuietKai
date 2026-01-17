@@ -8,7 +8,7 @@ export default function getVariousSettings(scheme, term) {
         "punctuation.accessor",
       ],
       settings: {
-        foreground: scheme.outline,
+        foreground: scheme.onSurface,
       },
     },
     {
@@ -20,7 +20,7 @@ export default function getVariousSettings(scheme, term) {
         "punctuation.section.bracket",
       ],
       settings: {
-        foreground: scheme.secondary,
+        foreground: scheme.onSurfaceVariant,
         fontStyle: "bold",
       },
     },

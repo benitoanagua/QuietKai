@@ -37,7 +37,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.other.attribute-name",
       ],
       settings: {
-        foreground: scheme.tertiary,
+        foreground: scheme.primary,
       },
     },
   ];

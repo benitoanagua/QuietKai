@@ -1,107 +1,107 @@
 // Monolumé Color Schemes - Material Design 3 tokens
-// Light: Quiet Light base with Brackets Light Pro terminal colors
-// Dark: Monokai base with Kanagawa enhancements
+// Light: Quiet Light essence with Brackets Light Pro accents
+// Dark: Monokai vibrancy with Kanagawa harmony
 
 export const monolumeLight = {
   primary: "#7A3E9D",
-  onPrimary: "#FFFFFF",
+  onPrimary: "#FEFEFE",
   primaryContainer: "#F3E5FF",
   onPrimaryContainer: "#2D0051",
 
   secondary: "#4B69C6",
-  onSecondary: "#FFFFFF",
+  onSecondary: "#FEFEFE",
   secondaryContainer: "#DCE7FF",
   onSecondaryContainer: "#001D36",
 
   tertiary: "#448C27",
-  onTertiary: "#FFFFFF",
+  onTertiary: "#FEFEFE",
   tertiaryContainer: "#D5F7D6",
   onTertiaryContainer: "#0A2F0B",
 
   error: "#AA3731",
-  onError: "#FFFFFF",
+  onError: "#FEFEFE",
   errorContainer: "#FFDAD6",
   onErrorContainer: "#410002",
 
   background: "#F5F5F5",
-  onBackground: "#333333",
+  onBackground: "#1C1B1F",
 
   surface: "#F3F3F3",
-  onSurface: "#333333",
+  onSurface: "#1C1B1F",
   surfaceDim: "#EBEDEF",
   surfaceBright: "#FCFCFC",
-  surfaceContainerLowest: "#FFFFFF",
+  surfaceContainerLowest: "#FEFEFE",
   surfaceContainerLow: "#FAFAFA",
   surfaceContainer: "#F5F5F5",
   surfaceContainerHigh: "#F0F0F0",
   surfaceContainerHighest: "#E8E8E8",
 
   surfaceVariant: "#E7E0EC",
-  onSurfaceVariant: "#6D705B",
+  onSurfaceVariant: "#49454F",
 
-  outline: "#C4C4C4",
-  outlineVariant: "#DBDDE0",
+  outline: "#79747E",
+  outlineVariant: "#CAC4D0",
 
   shadow: "#000000",
   scrim: "#000000",
 
-  inverseSurface: "#2D0051",
-  inverseOnSurface: "#F3E5FF",
+  inverseSurface: "#313033",
+  inverseOnSurface: "#F4EFF4",
   inversePrimary: "#D0BCFF",
 };
 
 export const monolumeDark = {
   primary: "#A6E22E",
-  onPrimary: "#1A2810",
+  onPrimary: "#0F1A06",
   primaryContainer: "#2B3D1A",
   onPrimaryContainer: "#C7F1D4",
 
   secondary: "#66D9EF",
-  onSecondary: "#0C2E39",
-  secondaryContainer: "#1A4450",
+  onSecondary: "#003544",
+  secondaryContainer: "#004D61",
   onSecondaryContainer: "#C7F0FF",
 
   tertiary: "#AE81FF",
-  onTertiary: "#2E1A3B",
-  tertiaryContainer: "#4A2D60",
-  onTertiaryContainer: "#E6D5FF",
+  onTertiary: "#381E72",
+  tertiaryContainer: "#4F378B",
+  onTertiaryContainer: "#EADDFF",
 
   error: "#F92672",
-  onError: "#3C0916",
-  errorContainer: "#5C1A28",
+  onError: "#370617",
+  errorContainer: "#93000A",
   onErrorContainer: "#FFD6E0",
 
   background: "#272822",
   onBackground: "#F8F8F2",
 
-  surface: "#1E1F1C",
-  onSurface: "#F8F8F2",
-  surfaceDim: "#141318",
-  surfaceBright: "#3E3D32",
-  surfaceContainerLowest: "#0F100D",
-  surfaceContainerLow: "#1E1F1C",
-  surfaceContainer: "#272822",
-  surfaceContainerHigh: "#34352F",
-  surfaceContainerHighest: "#414339",
+  surface: "#1F1F28",
+  onSurface: "#DCD7BA",
+  surfaceDim: "#16161D",
+  surfaceBright: "#2A2A37",
+  surfaceContainerLowest: "#0D0D12",
+  surfaceContainerLow: "#1A1A20",
+  surfaceContainer: "#23231F",
+  surfaceContainerHigh: "#2F2F2B",
+  surfaceContainerHighest: "#3A3A35",
 
   surfaceVariant: "#49483E",
-  onSurfaceVariant: "#CCCCC7",
+  onSurfaceVariant: "#C8C093",
 
-  outline: "#75715E",
-  outlineVariant: "#49483E",
+  outline: "#938F99",
+  outlineVariant: "#49454F",
 
   shadow: "#000000",
   scrim: "#000000",
 
-  inverseSurface: "#2B3D1A",
-  inverseOnSurface: "#C7F1D4",
-  inversePrimary: "#76C759",
+  inverseSurface: "#E6E1E5",
+  inverseOnSurface: "#313033",
+  inversePrimary: "#5A7539",
 };
 
 export const terminalColors = {
   "monolume-light": {
     normal: {
-      black: "#000000",
+      black: "#0A0A0A",
       red: "#D02000",
       green: "#10A567",
       yellow: "#DDB700",
@@ -121,7 +121,7 @@ export const terminalColors = {
       white: "#A5A5A5",
     },
     dim: {
-      black: "#000000",
+      black: "#0A0A0A",
       red: "#AA3731",
       green: "#0C8552",
       yellow: "#B39D3C",
@@ -150,7 +150,7 @@ export const terminalColors = {
       blue: "#8AEAFF",
       magenta: "#C99DFF",
       cyan: "#8AEAFF",
-      white: "#FFFFFF",
+      white: "#F5F5F0",
     },
     dim: {
       black: "#1E1F1C",

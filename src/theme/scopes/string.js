@@ -11,7 +11,7 @@ export default function getStringSettings(scheme, term) {
       "punctuation.definition.string",
     ],
     settings: {
-      foreground: scheme.secondary,
+      foreground: scheme.tertiary,
     },
   };
 }

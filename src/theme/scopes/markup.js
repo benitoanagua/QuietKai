@@ -9,7 +9,7 @@ export default function getMarkupSettings(scheme, term) {
       ],
       settings: {
         fontStyle: "bold",
-        foreground: scheme.primary,
+        foreground: scheme.secondary,
       },
     },
     {
@@ -21,7 +21,7 @@ export default function getMarkupSettings(scheme, term) {
         "string.other.link.description.markdown",
       ],
       settings: {
-        foreground: scheme.tertiary,
+        foreground: scheme.primary,
         fontStyle: "underline",
       },
     },
@@ -33,7 +33,7 @@ export default function getMarkupSettings(scheme, term) {
         "markup.quote.markdown",
       ],
       settings: {
-        foreground: scheme.primary,
+        foreground: scheme.tertiary,
         fontStyle: "italic",
       },
     },
@@ -42,7 +42,7 @@ export default function getMarkupSettings(scheme, term) {
       scope: ["markup.bold", "punctuation.definition.bold"],
       settings: {
         fontStyle: "bold",
-        foreground: scheme.secondary, // Use MD3 secondary token
+        foreground: scheme.secondary,
       },
     },
     {
@@ -50,7 +50,7 @@ export default function getMarkupSettings(scheme, term) {
       scope: ["markup.italic", "punctuation.definition.italic"],
       settings: {
         fontStyle: "italic",
-        foreground: scheme.tertiary, // Use MD3 tertiary token
+        foreground: scheme.tertiary,
       },
     },
     {
@@ -61,7 +61,7 @@ export default function getMarkupSettings(scheme, term) {
         "punctuation.definition.list.begin",
       ],
       settings: {
-        foreground: scheme.primary,
+        foreground: scheme.secondary,
       },
     },
     {
@@ -72,7 +72,7 @@ export default function getMarkupSettings(scheme, term) {
         "entity.name.tag",
       ],
       settings: {
-        foreground: scheme.secondary, // Use MD3 secondary token
+        foreground: scheme.secondary,
       },
     },
     {
@@ -81,7 +81,7 @@ export default function getMarkupSettings(scheme, term) {
         "entity.other.attribute-name",
       ],
       settings: {
-        foreground: scheme.tertiary, // Use MD3 tertiary token
+        foreground: scheme.primary,
       },
     },
   ];

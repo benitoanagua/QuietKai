@@ -22,7 +22,7 @@ export default function getConstantSettings(scheme, term) {
         "constant.other",
       ],
       settings: {
-        foreground: scheme.secondary,
+        foreground: scheme.primary,
       },
     },
     {
@@ -32,7 +32,7 @@ export default function getConstantSettings(scheme, term) {
         "constant.other.placeholder",
       ],
       settings: {
-        foreground: scheme.primary,
+        foreground: scheme.secondary,
       },
     },
   ];

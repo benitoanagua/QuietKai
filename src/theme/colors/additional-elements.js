@@ -19,7 +19,7 @@ export default function getAdditionalElements(scheme, term) {
     "notebook.symbolHighlightBackground": `${scheme.secondaryContainer}1A`,
     "notebookScrollbarSlider.activeBackground": `${scheme.primary}66`,
     "notebookScrollbarSlider.background": `${scheme.onSurfaceVariant}40`,
-    "notebookScrollbarSlider.hoverBackground": `${scheme.primary}4D`,
+    "notebookScrollbarSlider.hoverBackground": `${scheme.primaryContainer}99`,
     "notebookStatusErrorIcon.foreground": scheme.error,
     "notebookStatusRunningIcon.foreground": scheme.primary,
     "notebookStatusSuccessIcon.foreground": scheme.secondary,
