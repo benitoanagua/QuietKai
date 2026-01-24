@@ -11,11 +11,11 @@ Classic editor themes reimagined with Material Design 3 architecture.
 
 ### Monolumé Light
 
-![Monolumé Light Theme](https://gcdnb.pbrd.co/images/C1PaDxxaFz7c.png)
+![Monolumé Light Theme](https://i.ibb.co/G3CZSfx0/light.png)
 
 ### Monolumé Dark
 
-![Monolumé Dark Theme](https://gcdnb.pbrd.co/images/3rJ2EszjFLnl.png)
+![Monolumé Dark Theme](https://i.ibb.co/833P7VT/dark.png)
 
 ## Installation
 
